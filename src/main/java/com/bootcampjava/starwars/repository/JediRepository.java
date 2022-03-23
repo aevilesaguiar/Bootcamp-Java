@@ -4,14 +4,18 @@ import com.bootcampjava.starwars.model.Jedi;
 
 
 import java.util.List;
+import java.util.Optional;
 
-public class JediRepository {
+public interface JediRepository {
 
-    Optionalonal<Jedi> findById(int id);
+    Optional<Jedi> findById(int id );//valor de retorno opcional
 
     List<Jedi> findAll();
 
-    boolean update (Jedi jedi);
+    Boolean update  (Jedi jedi);
 
+   Jedi save(Jedi jedi);
+
+   boolean delete (int id);
 
 }
