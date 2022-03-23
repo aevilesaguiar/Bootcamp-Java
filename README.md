@@ -57,3 +57,7 @@ nos papéis dos componentes, nas restrições sobre sua interação com outros c
 de elementos de dados significantes.
 
 
+## Resumo API e Nível de maturidade
+
+![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/52088444/159764582-6df6cb65-db57-422d-99e1-386e5576690e.png)
+
